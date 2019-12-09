@@ -1,0 +1,53 @@
+<html>
+<div class="container">
+  <header class="header">
+    <img id="header-image" src="https://user-images.githubusercontent.com/57696739/70311175-b19db680-1843-11ea-9994-eecb63a74b2b.png" alt="Light up logo" />
+    <h1 class="title"> Moon River Pet Shop Survey Form </h1>
+    <p class="desc"> Let us know what we can do to improve our pet shop </p>
+  </header>
+  
+  <form id="survey-form">
+
+    <div class="form-group">
+      <label id="name-label" for "name"> Name </label>
+      <input class="form-input" type="text" name="name" id="name" placeholder="Your name por favor" required />
+    </div>
+
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input class="form-input" type="email"  name="email" id="email"  placeholder="Enter your Email" required />
+    </div>
+
+    <div class="form-group">
+      <label id="number-label" for="number">Age</label>
+<input class="form-input" type="number"name="age" id="number" min="10" max="99" placeholder="Age"/>
+    </div>
+
+   <div class = "form-group">
+     <p> What did you buy at our pet shop? </p>
+     <label>
+       <input name="user-item" value="food" type="radio" /> Food
+     </label>
+      <label>
+       <input name="user-item" value="accessories" type="radio" /> Accessories
+     </label>
+      <label>
+       <input name="user-item" value="services" type="radio" /> Services
+       </label>
+    </div>
+
+    <div class="form-group">
+      <p> What can we do to improve? </p>
+      <textarea class="fill-textarea" id="suggestions" name="suggestion" placeholder="Please write your suggestions or comments. Thank you" /> </textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="submit">
+      Submit </button>
+    </div>
+
+  </form>
+
+</div>
+
+</html>
